@@ -7,7 +7,7 @@
 }
 
 nav{
-    background: blueviolet;
+    background: rgb(129, 129, 255);
     height: 80px;
     width: 100%;
 }
@@ -40,6 +40,6 @@ nav ul li a{
 }
 
 a.active, a:hover{
-    background:violet;
+    background:rgb(180, 197, 255);
     transition: .5s;
 }
