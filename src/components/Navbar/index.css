@@ -1,45 +1,67 @@
 *{
     margin:0;
     padding:0;
-    text-decoration: none;
-    list-style: none;
     box-sizing: border-box;
 }
 
 nav{
-    background: rgb(129, 129, 255);
-    height: 80px;
-    width: 100%;
+    display: flex;
+    background:#29304D;
+    justify-content: space-between;
+    align-items: center;
+    padding:3px 10% ;
 }
 
 label.logo{
     color:white;
-    font-size: 35px;
+    font-size: 27px;
     line-height: 80px;
-    padding: 0 100px;
+    padding: 0px 90px 0px 0px;
     font-weight: bold;
 }
 
-nav ul{
-    float: right;
-    margin-right: 20px;
+li,a,button {
+    
+    font-weight: 500;
+    font-size: 16px;
+    list-style: none;
+    color:white;
+    text-decoration: none;
+    
+}
+ 
+a.login{
+    padding-left: 157px;
 }
 
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+.nav__links{
+    list-style: none;
+    padding-left: 45px;
 }
 
-nav ul li a{
-    color: white;
-    font: size 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
+.nav__links li{
+  display: inline-block;
+  padding: 0px 40px;
+  padding-left: 50px;
 }
 
-a.active, a:hover{
-    background:rgb(180, 197, 255);
-    transition: .5s;
+.nav__links li a {
+    transition: all 0.3s ease 0 s;
+}
+
+.nav__links li a:hover {
+   color:#5ed6f4;
+}
+
+button{
+    padding:9px 25px;
+    background-color: #2573D5;
+    border: none;
+    border-radius:10px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
 }

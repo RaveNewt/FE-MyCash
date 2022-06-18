@@ -6,13 +6,17 @@ const Navbar = () => {
        <nav>
        
         <label class= "logo">MyCash</label>
-        <ul>
-          <li><a href="#home" class="active">Home</a></li>
-          <li><a href="#news">News</a></li>
-          <li><a href="#info">Info</a></li>
-          <li><a href="#services">Services</a></li>
+        <ul class="nav__links">
+          <li><a href="#howitwork">How it Work</a></li>
+          <li><a href="#webinar">Webinar</a></li>
+          <li><a href="#product">Product</a></li>
+        
+           
          </ul>
-
+         
+         <a class="login" href="#">Login</a>
+         <a class="cta" href="#"><button>Start Free</button></a>
+         
       </nav>
     </div>
   )
